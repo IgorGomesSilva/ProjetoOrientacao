@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{9D170C80-02AE-4BCE-A641-6719A72CB57D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET MVC", "ASP.NET MVC", "{30B64442-6147-491E-AB6F-B6D6E078848F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsForms", "WindowsForms", "{8875F284-198A-459C-B65B-6E97A701EA42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{EA414705-0FE1-4F6B-A6FD-357FEC701CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Layer", "2. Business Layer", "{9146117C-BB0C-4360-A5F9-F27E85639356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Layer", "3. Data Layer", "{E8C32A34-1B7D-4BE9-8A7A-39219C77B9F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Application Layer", "4. Application Layer", "{17D89F18-EABE-4E38-ADDA-60BC1A98DFBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Solution Itens", "5. Solution Itens", "{01E9D05A-6127-4145-84A5-6161774499B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacao.Data", "3. Data Layer\ProjetoOrientacao.Data\ProjetoOrientacao.Data.csproj", "{8B726F23-AC0F-4CDA-9722-D11EE536319D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{1ABBAE69-E160-409E-ACF0-9F7A22780DBA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Script_Banco_2016_08_25.sql = ..\Script_Banco_2016_08_25.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacao.Application", "4. Application Layer\ProjetoOrientacao.Application\ProjetoOrientacao.Application.csproj", "{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacao.Business", "2. Business Layer\ProjetoOrientacao.Business\ProjetoOrientacao.Business.csproj", "{474B81F1-961C-4807-80E8-1F71C9EB1CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacao", "1. Presentation Layer\ASP.NET MVC\ProjetoOrientacao\ProjetoOrientacao.csproj", "{0327494A-165C-4F76-8916-4327AABAC108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacao.WinForms", "1. Presentation Layer\WindowsForms\ProjetoOrientacao.WinForms\ProjetoOrientacao.WinForms.csproj", "{61DC5A59-49FE-499C-8C53-D85824068D6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B726F23-AC0F-4CDA-9722-D11EE536319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B726F23-AC0F-4CDA-9722-D11EE536319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B726F23-AC0F-4CDA-9722-D11EE536319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B726F23-AC0F-4CDA-9722-D11EE536319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474B81F1-961C-4807-80E8-1F71C9EB1CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474B81F1-961C-4807-80E8-1F71C9EB1CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474B81F1-961C-4807-80E8-1F71C9EB1CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474B81F1-961C-4807-80E8-1F71C9EB1CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0327494A-165C-4F76-8916-4327AABAC108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0327494A-165C-4F76-8916-4327AABAC108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0327494A-165C-4F76-8916-4327AABAC108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0327494A-165C-4F76-8916-4327AABAC108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DC5A59-49FE-499C-8C53-D85824068D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DC5A59-49FE-499C-8C53-D85824068D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DC5A59-49FE-499C-8C53-D85824068D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DC5A59-49FE-499C-8C53-D85824068D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30B64442-6147-491E-AB6F-B6D6E078848F} = {9D170C80-02AE-4BCE-A641-6719A72CB57D}
+		{8875F284-198A-459C-B65B-6E97A701EA42} = {9D170C80-02AE-4BCE-A641-6719A72CB57D}
+		{EA414705-0FE1-4F6B-A6FD-357FEC701CF7} = {9D170C80-02AE-4BCE-A641-6719A72CB57D}
+		{8B726F23-AC0F-4CDA-9722-D11EE536319D} = {E8C32A34-1B7D-4BE9-8A7A-39219C77B9F7}
+		{1ABBAE69-E160-409E-ACF0-9F7A22780DBA} = {01E9D05A-6127-4145-84A5-6161774499B9}
+		{7E7191E9-4FEA-485F-88D5-F8B9D38D2BF0} = {17D89F18-EABE-4E38-ADDA-60BC1A98DFBB}
+		{474B81F1-961C-4807-80E8-1F71C9EB1CC8} = {9146117C-BB0C-4360-A5F9-F27E85639356}
+		{0327494A-165C-4F76-8916-4327AABAC108} = {30B64442-6147-491E-AB6F-B6D6E078848F}
+		{61DC5A59-49FE-499C-8C53-D85824068D6F} = {8875F284-198A-459C-B65B-6E97A701EA42}
+	EndGlobalSection
+EndGlobal

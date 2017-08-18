@@ -1,0 +1,19 @@
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.dll.config
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.pdb
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.xml
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\obj\Debug\ProjetoOrientacao.Data.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. DataLayer\ProjetoOrientacao.Data\obj\Debug\ProjetoOrientacao.Data.pdb
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.dll.config
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\ProjetoOrientacao.Data.pdb
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.xml
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\obj\Debug\ProjetoOrientacao.Data.csprojResolveAssemblyReference.cache
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\obj\Debug\ProjetoOrientacao.Data.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\3. Data Layer\ProjetoOrientacao.Data\obj\Debug\ProjetoOrientacao.Data.pdb

@@ -1,0 +1,5 @@
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\2. Business Layer\ProjetoOrientacao.Business\bin\Debug\ProjetoOrientacao.Business.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\2. Business Layer\ProjetoOrientacao.Business\bin\Debug\ProjetoOrientacao.Business.pdb
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\2. Business Layer\ProjetoOrientacao.Business\obj\Debug\ProjetoOrientacao.Business.csprojResolveAssemblyReference.cache
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\2. Business Layer\ProjetoOrientacao.Business\obj\Debug\ProjetoOrientacao.Business.dll
+D:\jcorrea\2016-2\ProjetoOrientacao\ProjetoOrientacao\2. Business Layer\ProjetoOrientacao.Business\obj\Debug\ProjetoOrientacao.Business.pdb

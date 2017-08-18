@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjetoOrientacaoModelStoreContainer" CdmEntityContainer="ProjetoOrientacaoEntities">
+    <EntitySetMapping Name="Aluno">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Aluno">
+        <MappingFragment StoreEntitySet="Aluno">
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="CursoIdCurso" ColumnName="CursoIdCurso" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Curso">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Curso">
+        <MappingFragment StoreEntitySet="Curso">
+          <ScalarProperty Name="IdCurso" ColumnName="IdCurso" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entrega">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Entrega">
+        <MappingFragment StoreEntitySet="Entrega">
+          <ScalarProperty Name="IdEntrega" ColumnName="IdEntrega" />
+          <ScalarProperty Name="IdProjeto" ColumnName="IdProjeto" />
+          <ScalarProperty Name="IdEtapa" ColumnName="IdEtapa" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Etapa">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Etapa">
+        <MappingFragment StoreEntitySet="Etapa">
+          <ScalarProperty Name="IdEtapa" ColumnName="IdEtapa" />
+          <ScalarProperty Name="IdTipoEntrega" ColumnName="IdTipoEntrega" />
+          <ScalarProperty Name="DataInicio" ColumnName="DataInicio" />
+          <ScalarProperty Name="DataFim" ColumnName="DataFim" />
+          <ScalarProperty Name="NotaMinima" ColumnName="NotaMinima" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nota">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Nota">
+        <MappingFragment StoreEntitySet="Nota">
+          <ScalarProperty Name="IdNota" ColumnName="IdNota" />
+          <ScalarProperty Name="IdEntrega" ColumnName="IdEntrega" />
+          <ScalarProperty Name="DataAlteracao" ColumnName="DataAlteracao" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orientacao">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Orientacao">
+        <MappingFragment StoreEntitySet="Orientacao">
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="IdTipoOrientacao" ColumnName="IdTipoOrientacao" />
+          <ScalarProperty Name="IdProjeto" ColumnName="IdProjeto" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Professor">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Professor">
+        <MappingFragment StoreEntitySet="Professor">
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="CodigoProfessor" ColumnName="CodigoProfessor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projeto">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Projeto">
+        <MappingFragment StoreEntitySet="Projeto">
+          <ScalarProperty Name="IdProjeto" ColumnName="IdProjeto" />
+          <ScalarProperty Name="NomeProjeto" ColumnName="NomeProjeto" />
+          <ScalarProperty Name="NotaProjeto" ColumnName="NotaProjeto" />
+          <ScalarProperty Name="IdPessoaAluno" ColumnName="IdPessoaAluno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Situacao">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Situacao">
+        <MappingFragment StoreEntitySet="Situacao">
+          <ScalarProperty Name="IdSituacao" ColumnName="IdSituacao" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SituacaoProjeto">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.SituacaoProjeto">
+        <MappingFragment StoreEntitySet="SituacaoProjeto">
+          <ScalarProperty Name="IdProjeto" ColumnName="IdProjeto" />
+          <ScalarProperty Name="IdSituacao" ColumnName="IdSituacao" />
+          <ScalarProperty Name="DataAlteracao" ColumnName="DataAlteracao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoEntrega">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.TipoEntrega">
+        <MappingFragment StoreEntitySet="TipoEntrega">
+          <ScalarProperty Name="IdTipoEntrega" ColumnName="IdTipoEntrega" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoOrientacao">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.TipoOrientacao">
+        <MappingFragment StoreEntitySet="TipoOrientacao">
+          <ScalarProperty Name="IdTipoOrientacao" ColumnName="IdTipoOrientacao" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="NomeUsuario" ColumnName="NomeUsuario" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsuarioPapel">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.UsuarioPapel">
+        <MappingFragment StoreEntitySet="UsuarioPapel">
+          <ScalarProperty Name="DataRegistro" ColumnName="DataRegistro" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPapel" ColumnName="IdPapel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Papel">
+      <EntityTypeMapping TypeName="ProjetoOrientacaoModel.Papel">
+        <MappingFragment StoreEntitySet="Papel">
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="IdPapel" ColumnName="IdPapel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
